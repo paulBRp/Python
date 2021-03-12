@@ -6,7 +6,7 @@ class celular{
         this.rdc=rdc;
         this.ram= ram;
         this.encendido=false;
-                
+        this.info = `el telefono es ${this.color}`
     }
     prender(){
         if (this.encendido ==false){
